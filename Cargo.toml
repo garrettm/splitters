@@ -1,0 +1,7 @@
+[package]
+name = "splitters"
+version = "0.1.0"
+authors = ["garrettm <glmitchell@gmail.com>"]
+
+[dependencies]
+clap = "2.19.3"

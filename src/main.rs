@@ -10,8 +10,6 @@ const NEWLINE: &'static str = "\n";
 fn main() {
     let matches = App::new("splitters")
         .about("Split a file linewise")
-        // .version("0.1")
-        // .author("Garrett M. <glmitchell@gmail.com>")
         .arg(Arg::with_name("number")
              .help("Number of files to be split into.")
              .index(1)
